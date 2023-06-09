@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Sans-Serif', Helvetica;
+}
+::selection{
+  color: #fff;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:#04225a;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: rgb(245, 240, 240);
+}
+
+.img{
+    background: url('./image/fordi1')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .left{
+      position: absolute;
+      top: 52%;
+      left: 53%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 0 20px;
+      text-align: left;
+    }
+    .left .title{
+      color: #fff;
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .left .sub_title{
+      color: #fff;
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .h1{
+      position: absolute;
+      top: 52%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 0 20px;
+      text-align: left;
+    }
+    
+    .button {
+      border: white;
+      background-color: none;
+      padding: 4px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px 8px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 30px;
+    }
+    
+    .button1 {
+      background-color: transparent;
+      color: #fff; 
+      border: 2px solid #fff;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .button1:hover {
+      background-color: #fff;
+      color: #172875;
+      transform: scale(1.1);
+    }
+    
+    .button2 {
+      background-color: transparent; 
+      color: #fff; 
+     border: 2px solid #fff;
+     transition: all 0.3s ease-in-out;
+    }
+    
+    .button2:hover {
+      background-color: #fff;
+      color: #172875;
+      transform: scale(1.1);
+    }
+  
+    .container {
+      position: relative;
+      text-align: left;
+      color: white;
+    }
+    
+    .bottom-left {
+      
+      bottom: 8px;
+      left: 16px;
+    }
+  
